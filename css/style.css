@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    display: flex;
+}
+
+.columna{
+    flex-direction: column;
+}
+
+#bloquePrincipal{
+    margin: 5% 35% 0 35%;
+}
+
+#bloquePrincipal div label{
+    text-align: center;
+    padding: 10px 0px;
+}
+
+#bloquePrincipal div button{
+    padding: 5px 0px;
+}
+
+#bloqueResultados{
+    margin: 5% 30% 0 30%;
+    align-items: baseline;
+}
+
+#bloqueResultados h2{
+    margin-right: 50px;
+}
+
+.encabezado{
+    padding: 30px 0px;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.celda{
+    text-align: center;
+    border: 1px solid black;
+}
+.encabezado2{
+    text-align: center;
+    border: 1px solid black;
+}
